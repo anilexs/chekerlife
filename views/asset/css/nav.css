@@ -1,0 +1,73 @@
+nav{
+    width: 100%;
+    background-color: transparent;
+    height: 9%;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    direction: ltr;
+    list-style-type: none;
+}
+
+nav ul li{
+    margin: 0 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* cut */
+.octogoneOFF {
+    position: relative;
+    margin: 0 1%;
+    width: 7.5vh;
+    height: 7.5vh;
+    background: none; /* Aucun fond pour la div */
+    clip-path: polygon(
+        30% 0%,   /* Point supérieur gauche */
+        70% 0%,   /* Point supérieur droit */
+        100% 30%, /* Point droit haut */
+        100% 70%, /* Point droit bas */
+        70% 100%, /* Point inférieur droit */
+        30% 100%, /* Point inférieur gauche */
+        0% 70%,   /* Point gauche bas */
+        0% 30%    /* Point gauche haut */
+    );
+    border: 0.2vh solid white;
+    box-sizing: border-box;
+}
+
+.octogoneOFF::before {
+    content: '';
+    position: absolute;
+    top: -2%;
+    left: -2%;
+    right: -2%;
+    bottom: -2%;
+    width: 7.5vh;
+    height: 7.5vh;
+    background: none; /* Aucun fond pour la div */
+    clip-path: polygon(
+        30% 0%,   /* Point supérieur gauche */
+        70% 0%,   /* Point supérieur droit */
+        100% 30%, /* Point droit haut */
+        100% 70%, /* Point droit bas */
+        70% 100%, /* Point inférieur droit */
+        30% 100%, /* Point inférieur gauche */
+        0% 70%,   /* Point gauche bas */
+        0% 30%    /* Point gauche haut */
+    );
+    border: 0.3vh solid white;
+    box-sizing: border-box;
+    transform: rotate(45deg);
+}
+/* end cut */
+

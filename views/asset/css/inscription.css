@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(3, 3, 3), rgb(0, 0, 0));
+}
+
+body::before {
+    content: "";
+    background-image: linear-gradient(to bottom right, rgb(85, 18, 18), rgb(37, 37, 99));
+    background-image: url(../img/bg-anime.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -30;
+}
+
+
+.contenaire{
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+
+.pseudo{
+    display: flex;
+    width: 50%;
+}
+
+.pseudo .txt{
+    color: white;
+    margin-right: 2%;
+}
+
+.pseudo input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(177, 177, 177);
+    color: white;
+}
+
+.email{
+    display: flex;
+    width: 50%;
+}
+
+.email .txt{
+    color: white;
+    margin-right: 2%;
+}
+
+.email input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(177, 177, 177);
+    color: white;
+}
+
+.mdp{
+    display: flex;
+    width: 50%;
+}
+
+.mdp .txt{
+    color: white;
+    margin-right: 2%;
+}
+
+.mdp input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(177, 177, 177);
+    color: white;
+}
+
+.mdpVerify{
+    display: flex;
+    width: 50%;
+}
+
+.mdpVerify .txt{
+    color: white;
+    margin-right: 2%;
+}
+
+.mdpVerify input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(177, 177, 177);
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
