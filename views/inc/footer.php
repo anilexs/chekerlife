@@ -1,3 +1,4 @@
+</div>
 <footer id="footer">
     <!-- <div class="resau">
         <a href="https://www.twitch.tv/anilexs" target="_blank" class="twitch"><i class="fa-brands fa-twitch twitch"></i></a>

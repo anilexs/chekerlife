@@ -23,14 +23,20 @@ vertical-align: baseline;
 html, body{
     height: 100%;
     width: 100%;
-    position: absolute;
-    overflow: hidden;
+    overflow: auto;
 }
 
 body{
     /* background-color: red; */
     background-image: linear-gradient(to bottom right, rgb(85, 18, 18), rgb(37, 37, 99));
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenaire{
+    height: 91%;
 }
 
 .vide{
